@@ -1,0 +1,75 @@
+@import url( 'https://fonts.googleapis.com/css?family=Roboto' );
+
+.maindiv {
+	width: 60%;
+	height: 60%;
+	background-image: url("polcomp.png");
+	background-position: 75% 50%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#policemenu {
+	position: absolute;
+	left : 50%;
+	top  : 50%;
+	transform: translate(-50%, -50%);
+}
+
+#policemenu input[type=text] {
+	width: 60%;
+	padding: 5px;
+	margin-left: 20%;
+	font-size: 16px;
+	height: 60px;
+}
+
+#policemenu button.accept {
+    background-color: rgba(0, 175, 0, 0.75); 
+    color: #EEE; 
+	border: 0;
+    font-family: 'Calibri', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+    padding: 10px 24px; 
+    /* margin: 0px 0px 0px 5%; */
+    cursor: pointer; 
+    width: 200px; 
+	height: 50px;
+    display: block; 
+    text-transform: uppercase;
+	position: absolute;
+	bottom: 18%;
+	left : 30%;
+	transform: translate(-50%, -50%);
+}
+
+#policemenu button.exit {
+    background-color: rgba(175, 0, 0, 0.75); 
+    color: #EEE; 
+	border: 0;
+    font-family: 'Calibri', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+    padding: 10px 24px; 
+    /* margin: 0px 0px 0px 5%; */
+    cursor: pointer; 
+    width: 200px; 
+	height: 50px;
+    display: block; 
+    text-transform: uppercase;
+	position: absolute;
+	bottom: 18%;
+	left : 70%;
+	transform: translate(-50%, -50%);
+}
+
+#policemenu button.accept:hover {
+    background-color: rgba(0, 125, 0, 0.75); 
+	border: 0;
+}
+
+#policemenu button.exit:hover {
+    background-color: rgba(125, 0, 0, 0.75); 
+	border: 0;
+}
